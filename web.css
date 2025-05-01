@@ -1,0 +1,59 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+header {
+    background-color: #ff6347;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    margin: 20px 0;
+}
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #ff6347;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+section {
+    margin-bottom: 40px;
+}
+.food-drink {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.food-drink img {
+    max-width: 150px;
+    border-radius: 5px;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ff6347;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
